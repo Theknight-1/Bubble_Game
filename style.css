@@ -49,11 +49,28 @@ html,body{
 .p-bottom{
     width: 100%;
     height: calc(100% - 100px);
-    padding: 20px;
+    padding: 15px;
     display: flex;
+    justify-content: center;
+    align-items: center;
     gap: 1rem;
     flex-wrap: wrap;
+    overflow-x: auto;
 }
+::-webkit-scrollbar{
+    width: 5px;
+}
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+  }
+::-webkit-scrollbar-thumb {
+    background: rgba(43, 94, 43, 0.849);; 
+    border-radius: 10px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgba(17, 41, 17, 0.849);
+  }
 .bubble{
     width: 40px;
     height: 40px;
@@ -64,8 +81,25 @@ html,body{
     align-items: center;
     justify-content: center;
     font-size: 23px;
+    cursor: pointer;
 }
 .bubble:hover{
     background-color:rgb(67, 138, 96);
     transform: scale(1.05);
+}
+.reset{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.playAgainBtn{
+    padding: 5px 10px;
+    margin-top: 5px;
+    background-color: rgba(20, 153, 109, 0.842);
+    font-size: 18px;
+    border:none;
+    outline: none;
+    border-radius: 20px;
+    color: #fff;
 }
