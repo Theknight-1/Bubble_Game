@@ -4,3 +4,6 @@ Or here is the link of live : https://bubble-game-roan-rho.vercel.app
 
 PREVIEW
 ![Alt text](./preview/Bubble_game.png)
+
+SCORE BOARD
+![Alt text](./preview/scroeboard.png)
